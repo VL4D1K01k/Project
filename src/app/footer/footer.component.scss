@@ -7,21 +7,18 @@
     position: absolute;
     left: 11.5%;
     top: 10%;
-  }
 
-  .download {
-    position: absolute;
-    left: 11.5%;
-    top: 28%;
+    .download {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      width: 134px;
+      margin-top: 30px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    width: 134px;
-
-    .google {
-      margin-bottom: 10px;
+      .google {
+        margin-bottom: 10px;
+      }
     }
   }
 
@@ -77,8 +74,7 @@
   .btn {
     background: #FFE400;
     padding: 15px 37px;
-    position: absolute;
-    left: 87%;
-    top: 19.6%;
+    margin-left: 5px;
+    margin-bottom: 5px;
   }
 }
