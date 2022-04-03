@@ -1,0 +1,68 @@
+.container-fluid {
+padding: 0% 0%;
+}
+
+.container-fluid-1 {
+  background-image: url(../../assets/image/hero_img.png);
+  background-size: cover;
+  height: 1100px;
+
+  .hero_text {
+    margin-top: 360px;
+    margin-left: 240px;
+    width: 446px;
+
+    .frame_title {
+      position: static;
+      width: 387px;
+      height: 157px;
+
+      .title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 76px;
+        color: #FFFFFF;
+
+        u {
+          margin-left: 10px;
+          text-decoration-color: #FFE400;
+          text-underline-offset: 5px;
+        }
+      }
+    }
+
+    .frame_text {
+      width: 446px;
+      height: 102px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 34px;
+      color: #FFFFFF;
+      margin-top: 15px;
+    }
+
+    .frame_buttons {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      margin-top: 60px;
+
+      .btn-1 {
+        border: 2px solid #FFE400;
+        box-sizing: border-box;
+        background-color: transparent;
+        color: #FFFFFF;
+        padding: 15.5px 43px ;
+      }
+
+      .btn-2 {
+        background-color: #FFE400;
+        padding: 15.5px 32px ;
+        margin-left: 10px;
+      }
+    }
+  }
+}

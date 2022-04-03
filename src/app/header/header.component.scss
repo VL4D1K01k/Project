@@ -10,7 +10,7 @@
     top: 20px;
   }
 
-  .frame {
+  .frame{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -27,6 +27,7 @@
       text-decoration: none;
       display: inline-block;
       position: relative;
+      color: #FFFFFF;
     }
 
     a:after {
@@ -59,7 +60,12 @@
     padding: 0px;
     position: absolute;
     left: 77.29%;
-    top: 5%;
+    top: 29px;
+
+    .btn {
+      background-color: transparent;
+      color: #FFFFFF;
+    }
 
     .btn-1 {
       display: flex;
@@ -68,8 +74,8 @@
       align-items: center;
       padding: 10px 30px;
       border: 2px solid #FFE400;
-      box-sizing: border-box;
-
+      background-color: #FFE400;
+      box-sizing: border-box
     }
   }
 }
