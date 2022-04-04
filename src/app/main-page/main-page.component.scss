@@ -262,6 +262,18 @@
     margin-top: 40px;
     margin-bottom: 80px;
 
+    .card-title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      color: #FFFFFF;
+      position: relative;
+      left: 30px;
+      top: 242px;
+
+    }
+
     .card-1 {
       position: relative;
       left: 0px;
@@ -294,6 +306,11 @@
       width: 460px;
       height: 632px;
       background-image: url("../../assets/image/Rectangle\ 53.png");
+      .card-title {
+        position: relative;
+        left: 30px;
+        top: 573px;
+      }
     }
   }
 }
