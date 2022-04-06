@@ -1,6 +1,10 @@
 .container-fluid {
   padding: 0% 0%;
 
+  #margin {
+    margin-left: 10px;
+  }
+
   .btn-1 {
     border: 2px solid #FFE400;
     box-sizing: border-box;
@@ -316,13 +320,16 @@
 }
 
 .container-fluid_5 {
+  background-size: cover;
   width: 100%;
   background-image: url("../../assets/image/Rectangle\ 4.png");
   height: 600px;
+  display: flex;
 
   .app-text {
   width: 362px;
   height: 302px;
+  margin: 149px 30px 149px auto;
 
     .app-title {
       position: static;
@@ -360,10 +367,11 @@
     }
   }
   .app-img {
-    float: right;
-    width: 600px;
-    height: 530px;
+    margin: 70px auto 0px 0px;
+
+    .download {
+      margin-left: 460px;
+      margin-top: -540px;
+    }
   }
-
-
 }
