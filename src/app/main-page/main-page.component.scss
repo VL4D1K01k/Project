@@ -314,3 +314,56 @@
     }
   }
 }
+
+.container-fluid_5 {
+  width: 100%;
+  background-image: url("../../assets/image/Rectangle\ 4.png");
+  height: 600px;
+
+  .app-text {
+  width: 362px;
+  height: 302px;
+
+    .app-title {
+      position: static;
+      width: 360px;
+      height: 128px;
+      left: 0px;
+      top: 0px;
+
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 64px;
+    }
+
+    .text-app {
+      width: 362px;
+      height: 84px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17.9px;
+      line-height: 28px;
+      margin-top: 10px;
+    }
+
+    .btn-3 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 16px 29px;
+      width: 172px;
+      height: 50px;
+      margin-top: 30px;
+      background: #1A1A1A;
+      color: #FFFFFF;
+    }
+  }
+  .app-img {
+    float: right;
+    width: 600px;
+    height: 530px;
+  }
+
+
+}
