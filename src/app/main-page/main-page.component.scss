@@ -375,3 +375,54 @@
     }
   }
 }
+
+.container-fluid_6 {
+  width: 100%;
+
+  .faq-section {
+    width: 1440px;
+    height: 649px;
+    margin: 80px auto;
+
+    .faq-title {
+      width: 117px;
+      height: 57px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 57px;
+      color: #3C3C3C;
+      margin: auto;
+    }
+
+    .faq-content {
+      height: 562px;
+    }
+    .accordion {
+      color: #444;
+      padding: 18px;
+      width: 705px;
+      text-align: left;
+      outline: none;
+      border: 1px solid #E8ECEE;
+
+    }
+
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+    }
+
+    .active, .accordion:hover {
+      background-color: #ccc;
+    }
+
+    .accordion.active+.panel {
+      display: block;
+    }
+
+    
+  }
+}
