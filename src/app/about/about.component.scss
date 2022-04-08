@@ -1,0 +1,212 @@
+.container-fluid {
+  padding: 0% 0%;
+
+  p {
+    padding: 0%;
+    margin: 0%;
+  }
+  .container-fluid_1 {
+    height: 600px;
+    background-image: url("../../assets/image/Rectangle\ 3.png");
+    background-size: cover;
+
+    .about-title {
+      width: 346px;
+      height: 105px;
+
+      margin: 167px 0px auto 240px;
+      .text {
+        width: 199px;
+        height: 19px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14.7px;
+        line-height: 19px;
+        color: #FFFFFF;
+      }
+      .title {
+        width: 346px;
+        height: 76px;
+        left: 0px;
+        top: 29px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 76px;
+        color: #FFFFFF;
+        margin-top: 10px;
+      }
+    }
+  }
+  .container-fluid_2 {
+    width: 1318px;
+    height: 400px;
+    margin: 80px auto;
+    display: flex;
+
+    .text-about {
+      width: 583px;
+      height: 231px;
+      margin-left: 152px;
+      margin-top: 84px;
+
+      .title {
+        width: 583px;
+        height: 57px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 57px;
+        color: #3C3C3C;
+        margin-bottom: 10px;
+      }
+      .text {
+        width: 583px;
+        height: 72px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #3C3C3C;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .container-fluid_3 {
+    background-image: url("../../assets/image/Frame\ 285.png");
+    background-size: cover;
+    height: 506px;
+    width: 100%;
+  }
+
+  .container-fluid_4 {
+    width: 1318px;
+    height: 560px;
+    margin: 80px auto;
+    display: flex;
+
+    .content-box {
+      width: 583px;
+      height: 416px;
+      margin-left: 175px;
+      margin-top: 72px;
+
+      .title {
+        width: 209px;
+        height: 57px;
+        left: 0px;
+        top: 0px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 57px;
+        color: #3C3C3C;
+      }
+
+      .accordion {
+        margin-top: 30px;
+        width: 92px;
+        height: 29px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+        border: none;
+        background: none;
+
+        .panel {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #3C3C3C;
+        }
+      }
+      .btn-3 {
+        display: flex;
+        align-items: center;
+        padding: 16px 29px;
+        width: 144px;
+        height: 50px;
+        background: #1A1A1A;
+        color: #FFFFFF;
+        margin-top: 30px;
+      }
+    }
+  }
+
+.container-fluid_6 {
+  width: 1440px;
+  height: 399px;
+  margin: 80px auto;
+  .title{
+    width: 769px;
+    height: 57px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46.6px;
+    line-height: 57px;
+    color: #3C3C3C;
+    margin: 0px auto 30px;
+  }
+  .image{
+    #margin-left {
+      margin-left: 30px;
+    }
+  }
+}
+
+  .container-fluid_7 {
+    background-size: cover;
+    width: 100%;
+    background-image: url("../../assets/image/Rectangle\ 4.png");
+    height: 600px;
+    display: flex;
+
+    .app-text {
+    width: 362px;
+    height: 302px;
+    margin: 149px 30px 149px auto;
+
+      .app-title {
+        position: static;
+        width: 360px;
+        height: 128px;
+        left: 0px;
+        top: 0px;
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+      }
+
+      .text-app {
+        width: 362px;
+        height: 84px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.9px;
+        line-height: 28px;
+        margin-top: 10px;
+      }
+
+      .btn-3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 16px 29px;
+        width: 172px;
+        height: 50px;
+        margin-top: 30px;
+        background: #1A1A1A;
+        color: #FFFFFF;
+      }
+    }
+    .app-img {
+      margin: 70px auto 0px 0px;
+    }
+  }
+
+}
