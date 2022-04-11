@@ -1,0 +1,174 @@
+.container-fluid {
+  padding: 0% 0%;
+
+  P {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .container-fluid_1 {
+    height: 600px;
+    background-image: url("../../assets/image/Rectangle\ 5.png");
+    background-size: cover;
+
+    .title {
+      width: 440px;
+      height: 228px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 76px;
+      color: #FFFFFF;
+      margin: 156px 0px 0px 240px;
+    }
+  }
+
+  .container-fluid_2 {
+    .section-2 {
+      width: 1440px;
+      height: 614px;
+      margin: 60px auto 80px;
+
+      .text {
+        width: 482px;
+        height: 27px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+        color: #3C3C3C;
+        display: flex;
+        margin: 60px auto 30px;
+
+        .margin {
+          margin-left: 30px;
+        }
+      }
+      .instagram-cards {
+        position: absolute;
+        img {
+          width: 360px;
+        }
+        .margin {
+          margin-top: -65px;
+        }
+        .margin-1 {
+          margin-top: -20px;
+        }
+        .margin-2 {
+          margin-top: -40px;
+        }
+      }
+    }
+  }
+
+  .container-fluid_3 {
+    background-image: url("../../assets/image/Rectangle\ 34.png");
+    background-size: cover;
+    width: 100%;
+    height: 553px;
+    .section {
+      display: flex;
+      margin: 0px auto;
+      .content {
+        width: 583px;
+        height: 196px;
+        margin: 178px 0px 178px 200px;
+
+        .title {
+          width: 583px;
+          height: 114px;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 57px;
+          color: #FFFFFF;
+        }
+        .text{
+          margin-top: 10px;
+          width: 583px;
+          height: 72px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          color: #E1E1E1;
+        }
+      }
+      .img-content {
+        display: flex;
+        #margin-top {
+          margin-top: 45px;
+        }
+        .column {
+          width: 338px;
+          margin-left: 30px;
+          .margin-top {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .container-fluid_4 {
+    width: 100%;
+    .section-4 {
+      width: 1439px;
+      height: 720px;
+      margin: 80px auto;
+    }
+  }
+
+  .container-fluid_5 {
+    background-image: url("../../assets/image/Rectangle\ 4.png");
+    height: 600px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+
+    .app-text {
+    width: 362px;
+    height: 302px;
+    margin: 149px 30px 149px auto;
+
+      .app-title {
+        position: static;
+        width: 360px;
+        height: 128px;
+        left: 0px;
+        top: 0px;
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+      }
+
+      .text-app {
+        width: 362px;
+        height: 84px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.9px;
+        line-height: 28px;
+        margin-top: 10px;
+      }
+
+      .btn-3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 16px 29px;
+        width: 172px;
+        height: 50px;
+        margin-top: 30px;
+        background: #1A1A1A;
+        color: #FFFFFF;
+      }
+    }
+    .app-img {
+      margin: 70px auto 0px 0px;
+    }
+  }
+}
