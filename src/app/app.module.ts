@@ -9,6 +9,7 @@ import { AppPageComponent } from './app-page/app-page.component';
 import { AboutComponent } from './about/about.component';
 import { RewardsPageComponent } from './rewards-page/rewards-page.component';
 import { ShopPageComponent } from './shop-page/shop-page.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ShopPageComponent } from './shop-page/shop-page.component';
     ShopPageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
