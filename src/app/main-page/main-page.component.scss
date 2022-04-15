@@ -384,6 +384,10 @@
     height: 649px;
     margin: 80px auto;
 
+    #margin {
+      margin-left: 30px;
+    }
+
     .faq-title {
       width: 117px;
       height: 57px;
@@ -395,21 +399,31 @@
       margin: auto;
     }
 
-    .faq-content {
+    .faqs-content {
       height: 562px;
+      .column {
+        width: 705px;
+        float: right;
+      }
     }
+
     .accordion {
-      color: #444;
-      padding: 18px;
       width: 705px;
-      text-align: left;
-      outline: none;
+      height: 89px;
+      background: none;
       border: 1px solid #E8ECEE;
+      box-sizing: border-box;
+      margin: 30px 0px 0px 0px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      color: #3C3C3C;
+      text-align: left;
+      padding: 0px 20px;
 
     }
 
     .panel {
-      padding: 0 18px;
       background-color: white;
       display: none;
       overflow: hidden;
@@ -423,6 +437,6 @@
       display: block;
     }
 
-    
+
   }
 }
