@@ -10,6 +10,8 @@ import { AboutComponent } from './about/about.component';
 import { RewardsPageComponent } from './rewards-page/rewards-page.component';
 import { ShopPageComponent } from './shop-page/shop-page.component';
 import { AppRoutingModule } from './app-routing.module';
+import { TicketPageComponent } from './ticket-page/ticket-page.component';
+import { Ticket2PageComponent } from './ticket2-page/ticket2-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { AppRoutingModule } from './app-routing.module';
     AppPageComponent,
     AboutComponent,
     RewardsPageComponent,
-    ShopPageComponent
+    ShopPageComponent,
+    TicketPageComponent,
+    Ticket2PageComponent
   ],
   imports: [
     BrowserModule,

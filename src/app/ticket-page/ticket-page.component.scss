@@ -1,0 +1,26 @@
+.container-fluid {
+  padding: 0%;
+}
+
+.container-fluid_1 {
+  .tickets-content {
+    width: 1440px;
+    margin: 70px 0px 260px 240px;
+    .title{
+      width: 490px;
+      height: 43px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 43px;
+      color: #3C3C3C;
+    }
+
+    .tickets {
+      margin-top: 30px;
+      .img {
+        margin-right: 30px;
+      }
+    }
+  }
+}
